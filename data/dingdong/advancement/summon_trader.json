@@ -1,7 +1,7 @@
 {
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:default_block_use",
+      "trigger": "minecraft:item_used_on_block",
       "conditions": {
         "player": [
           {
@@ -21,9 +21,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "items": [
-                    "minecraft:white_banner"
-                  ],
+                  "items": "minecraft:white_banner",
                   "components": {
                     "minecraft:item_name": {
                       "translate": "block.minecraft.ominous_banner"
@@ -34,9 +32,7 @@
               {
                 "condition": "minecraft:match_tool",
                 "predicate": {
-                  "items": [
-                    "minecraft:emerald"
-                  ]
+                  "items": "minecraft:emerald"
                 }
               }
             ]
@@ -45,9 +41,7 @@
             "condition": "minecraft:location_check",
             "predicate": {
               "block": {
-                "blocks": [
-                  "minecraft:bell"
-                ]
+                "blocks": "minecraft:bell"
               }
             }
           }
