@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "G": "minecraft:glass",
+      "O": "minecraft:crying_obsidian",
+      "C": "minecraft:end_crystal"
+    },
+    "pattern": [
+      "GGG",
+      "GCG",
+      "OOO"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:beacon"
+    }
+  }
