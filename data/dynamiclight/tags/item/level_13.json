@@ -1,0 +1,15 @@
+{
+    "values": [
+        "minecraft:beacon",
+        "minecraft:conduit",
+        "minecraft:pearlescent_froglight",
+        "minecraft:verdant_froglight",
+        "minecraft:ochre_froglight",
+        "minecraft:glowstone",
+        "minecraft:jack_o_lantern",
+        "minecraft:lantern",
+        "minecraft:campfire",
+        "minecraft:sea_lantern",
+        "minecraft:shroomlight"
+    ]
+}

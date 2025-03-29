@@ -1,0 +1,61 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "dingdong:pillager_outposts",
+                "decoration": "target_x",
+                "zoom": 2,
+                "search_radius": 50,
+                "skip_existing_chunks": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Village or Pillage Explorer Map",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{MapColor:7882240},tcc:{id:\"pillage_explorer_map\"},dingdong:{id:\"pillage_explorer_map\"}}"
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "weight": 1,
+            "name": "minecraft:map",
+            "functions": [
+              {
+                "function": "minecraft:exploration_map",
+                "destination": "minecraft:village",
+                "decoration": "target_x",
+                "zoom": 2,
+                "search_radius": 50,
+                "skip_existing_chunks": true
+              },
+              {
+                "function": "minecraft:set_name",
+                "name": {
+                  "text": "Village or Pillage Explorer Map",
+                  "italic": false
+                }
+              },
+              {
+                "function": "minecraft:set_nbt",
+                "tag": "{display:{MapColor:7882240},tcc:{id:\"village_explorer_map\"},dingdong:{id:\"village_explorer_map\"}}"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }

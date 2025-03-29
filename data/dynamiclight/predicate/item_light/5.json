@@ -1,0 +1,99 @@
+{
+    "condition": "minecraft:any_of",
+    "terms": [
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "mainhand": {
+                        "tag": "dynamiclight:level_5"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+                "equipment": {
+                    "offhand": {
+                        "tag": "dynamiclight:level_5"
+                    }
+                }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "mainhand": {
+                  "tag": "minecraft:trimmable_armor",
+                  "nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+                }
+              }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "offhand": {
+                  "tag": "minecraft:trimmable_armor",
+                  "nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+                }
+              }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "head": {
+                  "tag": "minecraft:trimmable_armor",
+                  "nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+                }
+              }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "chest": {
+                  "tag": "minecraft:trimmable_armor",
+                  "nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+                }
+              }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "legs": {
+                  "tag": "minecraft:trimmable_armor",
+                  "nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+                }
+              }
+            }
+        },
+        {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "equipment": {
+                "feet": {
+                  "tag": "minecraft:trimmable_armor",
+                  "nbt": "{Trim:{material:\"minecraft:amethyst\"}}"
+                }
+              }
+            }
+        }
+    ]
+}
