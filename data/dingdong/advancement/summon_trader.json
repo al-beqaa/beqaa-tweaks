@@ -24,7 +24,11 @@
                   "items": [
                     "minecraft:white_banner"
                   ],
-                  "nbt": "{HideFlags:32}"
+                  "components": {
+                    "minecraft:item_name": {
+                      "translate": "block.minecraft.ominous_banner"
+                    }
+                  }
                 }
               },
               {
