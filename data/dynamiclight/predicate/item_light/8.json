@@ -7,7 +7,7 @@
             "predicate": {
                 "equipment": {
                     "mainhand": {
-                        "tag": "dynamiclight:level_8"
+                        "items": "#dynamiclight:level_8"
                     }
                 }
             }
@@ -18,7 +18,7 @@
             "predicate": {
                 "equipment": {
                     "offhand": {
-                        "tag": "dynamiclight:level_8"
+                        "items": "#dynamiclight:level_8"
                     }
                 }
             }
