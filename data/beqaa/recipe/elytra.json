@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+      "#": "minecraft:phantom_membrane",
+      "N": "minecraft:netherite_ingot"
+    },
+    "pattern": [
+      "#N#",
+      "# #",
+      "# #"
+    ],
+    "result": {
+      "count": 1,
+      "id": "minecraft:elytra"
+    }
+  }
