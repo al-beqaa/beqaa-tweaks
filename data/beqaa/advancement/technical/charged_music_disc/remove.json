@@ -1,0 +1,33 @@
+{
+    "criteria": {
+      "requirement": {
+        "trigger": "minecraft:item_used_on_block",
+        "conditions": {
+          "location": [
+            {
+              "condition": "minecraft:block_state_property",
+              "block": "minecraft:jukebox",
+              "properties": {
+                "has_record": "false"
+              }
+            },
+            {
+              "condition": "minecraft:match_tool",
+              "predicate": {
+                "predicates": {
+                  "minecraft:custom_data": {
+                    "beqaa": {
+                      "charged": true
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "rewards": {
+      "function": "beqaa:charged_music_disc/remove"
+    }
+  }
