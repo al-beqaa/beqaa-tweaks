@@ -27,6 +27,7 @@
           "condition": "minecraft:entity_properties",
           "entity": "this",
           "predicate": {
+            "type": "#dynamiclight:holds_item",
             "slots": {
               "contents": {
                 "items": "#dynamiclight:level_3"

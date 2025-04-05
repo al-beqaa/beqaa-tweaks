@@ -1,6 +1,7 @@
 {
     "values": [
         "minecraft:player",
-        "minecraft:armor_stand"
+        "minecraft:armor_stand",
+        "#dynamiclight:holds_item"
     ]
 }
