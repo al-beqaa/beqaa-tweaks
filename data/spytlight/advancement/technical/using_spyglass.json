@@ -1,15 +1,19 @@
 {
-    "criteria": {
-      "requirement": {
-        "trigger": "minecraft:using_item",
-        "conditions": {
-          "item": {
-            "items": [
-              "minecraft:spyglass"
-            ]
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:using_item",
+      "conditions": {
+        "player": {
+          "flags": {
+            "is_sneaking": false
           }
+        },
+        "item": {
+          "items": [
+            "minecraft:spyglass"
+          ]
         }
       }
     }
   }
-  
+}
