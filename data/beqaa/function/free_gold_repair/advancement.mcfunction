@@ -29,10 +29,10 @@ execute if items entity @s inventory.17 #beqaa:golden_equipment run item modify 
 execute if items entity @s inventory.18 #beqaa:golden_equipment run item modify entity @s inventory.18 beqaa:free_gold_repair
 execute if items entity @s inventory.19 #beqaa:golden_equipment run item modify entity @s inventory.19 beqaa:free_gold_repair
 execute if items entity @s inventory.20 #beqaa:golden_equipment run item modify entity @s inventory.20 beqaa:free_gold_repair
-execute if items entity @s inventory.21 #beqaa:golden_equipment item modify entity @s inventory.21 beqaa:free_gold_repair
-execute if items entity @s inventory.22 #beqaa:golden_equipment item modify entity @s inventory.22 beqaa:free_gold_repair
-execute if items entity @s inventory.23 #beqaa:golden_equipment item modify entity @s inventory.23 beqaa:free_gold_repair
-execute if items entity @s inventory.24 #beqaa:golden_equipment item modify entity @s inventory.24 beqaa:free_gold_repair
-execute if items entity @s inventory.25 #beqaa:golden_equipment item modify entity @s inventory.25 beqaa:free_gold_repair
-execute if items entity @s inventory.26 #beqaa:golden_equipment item modify entity @s inventory.26 beqaa:free_gold_repair
-execute if items entity @s player.cursor #beqaa:golden_equipment item modify entity @s player.cursor beqaa:free_gold_repair
+execute if items entity @s inventory.21 #beqaa:golden_equipment run item modify entity @s inventory.21 beqaa:free_gold_repair
+execute if items entity @s inventory.22 #beqaa:golden_equipment run item modify entity @s inventory.22 beqaa:free_gold_repair
+execute if items entity @s inventory.23 #beqaa:golden_equipment run item modify entity @s inventory.23 beqaa:free_gold_repair
+execute if items entity @s inventory.24 #beqaa:golden_equipment run item modify entity @s inventory.24 beqaa:free_gold_repair
+execute if items entity @s inventory.25 #beqaa:golden_equipment run item modify entity @s inventory.25 beqaa:free_gold_repair
+execute if items entity @s inventory.26 #beqaa:golden_equipment run item modify entity @s inventory.26 beqaa:free_gold_repair
+execute if items entity @s player.cursor #beqaa:golden_equipment run item modify entity @s player.cursor beqaa:free_gold_repair
