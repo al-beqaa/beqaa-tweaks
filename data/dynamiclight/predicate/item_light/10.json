@@ -22,6 +22,17 @@
                     }
                 }
             }
+        },
+        {
+          "condition": "minecraft:entity_properties",
+          "entity": "this",
+          "predicate": {
+            "slots": {
+              "contents": {
+                "items": "#dynamiclight:level_10"
+              }
+            }
+          }
         }
     ]
 }

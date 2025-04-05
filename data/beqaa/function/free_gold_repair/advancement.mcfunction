@@ -35,4 +35,3 @@ execute if items entity @s inventory.23 #beqaa:golden_equipment run item modify 
 execute if items entity @s inventory.24 #beqaa:golden_equipment run item modify entity @s inventory.24 beqaa:free_gold_repair
 execute if items entity @s inventory.25 #beqaa:golden_equipment run item modify entity @s inventory.25 beqaa:free_gold_repair
 execute if items entity @s inventory.26 #beqaa:golden_equipment run item modify entity @s inventory.26 beqaa:free_gold_repair
-execute if items entity @s player.cursor #beqaa:golden_equipment run item modify entity @s player.cursor beqaa:free_gold_repair

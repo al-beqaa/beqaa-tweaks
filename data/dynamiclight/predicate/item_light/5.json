@@ -118,6 +118,33 @@
           }
         }
       }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "contents": {
+            "items": "#dynamiclight:level_5"
+          }
+        }
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "slots": {
+          "contents": {
+            "items": "#minecraft:trimmable_armor",
+            "predicates": {
+              "minecraft:trim": {
+                "material": "minecraft:amethyst"
+              }
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,1 @@
+execute as @a if items entity @s player.cursor #beqaa:golden_equipment[minecraft:repair_cost] run item modify entity @s player.cursor beqaa:free_gold_repair
