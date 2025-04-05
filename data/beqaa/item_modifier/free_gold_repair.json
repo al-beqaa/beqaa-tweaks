@@ -2,13 +2,5 @@
     "function": "minecraft:set_components",
     "components": {
         "!minecraft:repair_cost": {}
-    },
-    "conditions": [
-        {
-            "condition": "minecraft:match_tool",
-            "predicate": {
-                "items": "#beqaa:golden_equipment"
-            }
-        }
-    ]
+    }
 }
