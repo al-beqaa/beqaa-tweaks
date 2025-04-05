@@ -1,0 +1,17 @@
+{
+    "criteria": {
+        "picked_up_gold": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+            "items": [
+                {
+                    "items": "#beqaa:golden_equipment"
+                }
+            ]
+        }
+        }
+    },
+    "rewards": {
+        "function": "beqaa:free_gold_repair/advancement"
+    }
+}
