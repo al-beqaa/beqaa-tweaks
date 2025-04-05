@@ -13,6 +13,8 @@
         "minecraft:shroomlight",
         "minecraft:glowstone_dust",
         "minecraft:spectral_arrow",
-        "minecraft:lava_bucket"
+        "minecraft:lava_bucket",
+        "minecraft:blaze_rod",
+        "minecraft:blaze_powder"
     ]
 }
