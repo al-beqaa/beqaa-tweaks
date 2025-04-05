@@ -1,11 +1,9 @@
 {
     "values": [
-        "#spytlight:air",
         "minecraft:glass",
         "#minecraft:wool_carpets",
         "minecraft:moss_carpet",
-        "minecraft:water",
-        "minecraft:light",
-        "#minecraft:leaves"
+        "#minecraft:leaves",
+        "#minecraft:replaceable"
     ]
 }
