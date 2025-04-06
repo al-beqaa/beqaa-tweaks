@@ -2,8 +2,6 @@
     "values": [
         "minecraft:crying_obsidian",
         "minecraft:soul_lantern",
-        "minecraft:soul_torch",
-        "minecraft:glow_ink_sac",
-        "minecraft:glow_item_frame"
+        "minecraft:soul_torch"
     ]
 }
