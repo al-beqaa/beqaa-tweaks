@@ -10,6 +10,8 @@ execute if predicate dynamiclight:item_light/14 \
     summon marker run return run function dynamiclight:light/set/11
     execute if predicate dynamiclight:item_light/10 \
     summon marker run return run function dynamiclight:light/set/10
+execute if entity @s[type=minecraft:glow_item_frame] \
+    summon marker run return run function dynamiclight:light/set/10
 execute if predicate dynamiclight:item_light/9 \
     summon marker run return run function dynamiclight:light/set/9
 execute if predicate dynamiclight:item_light/8 \
