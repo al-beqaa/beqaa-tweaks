@@ -5,12 +5,25 @@
       "condition": "minecraft:any_of",
       "terms": [
         {
-          "condition": "minecraft:location_check",
-          "predicate": {
-            "block": {
-              "blocks": "#dynamiclight:air"
+          "condition": "minecraft:all_of",
+          "terms": [
+            {
+              "condition": "minecraft:location_check",
+              "predicate": {
+                "block": {
+                  "blocks": "#minecraft:air"
+                }
+              }
+            },
+            {
+              "condition": "minecraft:inverted",
+              "term": {
+                "condition": "minecraft:reference",
+                "name": "dynamiclight:need_block_update"
+              }
             }
-          }
+          ]
+          
         },
         {
           "condition": "minecraft:location_check",
@@ -24,94 +37,19 @@
               }
             }
           }
-        }
-      ]
-    },
-    {
-      "condition": "minecraft:inverted",
-      "term": {
-        "condition": "minecraft:all_of",
-        "terms": [
-          {
-            "condition": "minecraft:inverted",
-            "term": {
-              "condition": "minecraft:location_check",
-              "predicate": {
-                "block": {
-                  "blocks": [
-                    "minecraft:water"
-                  ]
-                }
+        },
+        {
+          "condition": "minecraft:location_check",
+          "predicate": {
+            "block": {
+              "blocks": [ "minecraft:water" ],
+              "state": {
+                "level": "8"
               }
             }
-          },
-          {
-            "condition": "minecraft:any_of",
-            "terms": [
-              {
-                "condition": "minecraft:location_check",
-                "offsetX": 1,
-                "predicate": {
-                  "fluid": {
-                    "fluids": [
-                      "minecraft:flowing_water",
-                      "minecraft:flowing_lava"
-                    ]
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "offsetX": -1,
-                "predicate": {
-                  "fluid": {
-                    "fluids": [
-                      "minecraft:flowing_water",
-                      "minecraft:flowing_lava"
-                    ]
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "offsetZ": 1,
-                "predicate": {
-                  "fluid": {
-                    "fluids": [
-                      "minecraft:flowing_water",
-                      "minecraft:flowing_lava"
-                    ]
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "offsetZ": -1,
-                "predicate": {
-                  "fluid": {
-                    "fluids": [
-                      "minecraft:flowing_water",
-                      "minecraft:flowing_lava"
-                    ]
-                  }
-                }
-              },
-              {
-                "condition": "minecraft:location_check",
-                "offsetY": 1,
-                "predicate": {
-                  "fluid": {
-                    "fluids": [
-                      "minecraft:flowing_water",
-                      "minecraft:flowing_lava"
-                    ]
-                  }
-                }
-              }
-            ]
           }
-        ]
-      }
+        }
+      ]
     }
   ]
 }
