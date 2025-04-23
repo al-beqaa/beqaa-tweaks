@@ -15,5 +15,8 @@
         }
       }
     }
+  },
+  "rewards": {
+    "function": "spytlight:advancement"
   }
 }

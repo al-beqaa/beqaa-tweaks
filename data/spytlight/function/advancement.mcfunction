@@ -1,2 +1,2 @@
+execute unless predicate spytlight:has_night_vision run function spytlight:affect
 advancement revoke @s only spytlight:technical/using_spyglass
-execute anchored eyes run function spytlight:find_surface
