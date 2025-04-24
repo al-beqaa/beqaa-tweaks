@@ -3,5 +3,13 @@
         "description": "beqaa tweaks",
         "pack_format": 71,
         "supported_formats": [55, 71]
+    },
+    "filter": {
+        "block": [
+            {
+                "namespace": "minecraft",
+                "path": "/recipe\/stone\.*/"
+            }
+        ]
     }
 }
