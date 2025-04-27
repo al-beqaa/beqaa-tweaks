@@ -3,7 +3,7 @@
     "sounds": [
       {
         "name": "mob/ghast/fireball4",
-        "attenuation_distance": 64
+        "attenuation_distance": 48
       }
     ],
     "subtitle": "subtitles.entity.blaze.shoot",
