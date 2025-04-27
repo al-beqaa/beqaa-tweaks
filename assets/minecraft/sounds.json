@@ -1,0 +1,12 @@
+{
+  "entity.blaze.shoot": {
+    "sounds": [
+      {
+        "name": "mob/ghast/fireball4",
+        "attenuation_distance": 64
+      }
+    ],
+    "subtitle": "subtitles.entity.blaze.shoot",
+    "replace": true
+  }
+}
