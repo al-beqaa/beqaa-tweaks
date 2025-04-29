@@ -1,0 +1,26 @@
+[
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "beqaa": {
+        "id": "lodestone_minecart"
+      }
+    }
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:item_name": {
+        "translate": "beqaa.lodestone_minecart",
+        "fallback": "Minecart with Lodestone"
+      },
+      "minecraft:entity_data": {
+        "id": "minecraft:minecart",
+        "Tags": [
+          "beqaa.lodestone_minecart"
+        ]
+      },
+      "!minecraft:custom_name": {}
+    }
+  }
+]

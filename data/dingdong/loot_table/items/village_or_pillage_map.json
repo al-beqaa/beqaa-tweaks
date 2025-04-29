@@ -14,14 +14,7 @@
               "decoration": "target_x",
               "zoom": 2,
               "search_radius": 50,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Village or Pillage Explorer Map",
-                "italic": false
-              }
+              "skip_existing_chunks": false
             },
             {
               "function": "minecraft:set_components",
@@ -31,39 +24,10 @@
                   "dingdong": {
                     "id": "pillage_explorer_map"
                   }
-                }
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "weight": 1,
-          "name": "minecraft:map",
-          "functions": [
-            {
-              "function": "minecraft:exploration_map",
-              "destination": "minecraft:village",
-              "decoration": "target_x",
-              "zoom": 2,
-              "search_radius": 50,
-              "skip_existing_chunks": true
-            },
-            {
-              "function": "minecraft:set_name",
-              "name": {
-                "text": "Village or Pillage Explorer Map",
-                "italic": false
-              }
-            },
-            {
-              "function": "minecraft:set_components",
-              "components": {
-                "minecraft:map_color": 7882240,
-                "minecraft:custom_data": {
-                  "dingdong": {
-                    "id": "village_explorer_map"
-                  }
+                },
+                "minecraft:item_name": {
+                  "translate": "item.beqaa.outpost_explorer_map",
+                  "fallback": "Outpost Explorer Map"
                 }
               }
             }

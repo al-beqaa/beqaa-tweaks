@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "category": "misc",
+    "ingredients": [
+        "minecraft:lodestone",
+        "minecraft:minecart"
+    ],
+    "result": {
+        "count": 1,
+        "id": "minecraft:minecart",
+        "components": {
+            "minecraft:item_name": {
+                "translate": "beqaa.lodestone_minecart",
+                "fallback": "Minecart with Lodestone"
+            },
+            "minecraft:entity_data": {
+                "id": "minecraft:minecart",
+                "Tags": [
+                    "beqaa.lodestone_minecart"
+                ]
+            }
+        }
+    }
+}
