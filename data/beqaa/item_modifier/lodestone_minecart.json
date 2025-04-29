@@ -20,6 +20,7 @@
           "beqaa.lodestone_minecart"
         ]
       },
+      "minecraft:item_model": "beqaa:lodestone_minecart",
       "!minecraft:custom_name": {}
     }
   }
