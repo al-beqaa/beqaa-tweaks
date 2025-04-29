@@ -1,5 +1,15 @@
-data modify entity @s Offers.Recipes prepend value {buy:{id:"minecraft:emerald",Count:5b},sell:{id:"minecraft:dirt",Count:1b},maxUses:1,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0}
-loot replace entity @s weapon.mainhand 2 loot dingdong:items/village_or_pillage_map
-data modify entity @s Offers.Recipes[0].sell set from entity @s equipment.mainhand
-data modify entity @s Offers.Recipes prepend value {buy:{Count:1b,components: {"minecraft:item_name": {translate: "block.minecraft.ominous_banner"}, "minecraft:tooltip_display": {hidden_components: ["minecraft:banner_patterns"]}, "minecraft:rarity": "uncommon", "minecraft:banner_patterns": [{color: "cyan", pattern: "minecraft:rhombus"}, {color: "light_gray", pattern: "minecraft:stripe_bottom"}, {color: "gray", pattern: "minecraft:stripe_center"}, {color: "light_gray", pattern: "minecraft:border"}, {color: "black", pattern: "minecraft:stripe_middle"}, {color: "light_gray", pattern: "minecraft:half_horizontal"}, {color: "light_gray", pattern: "minecraft:circle"}, {color: "black", pattern: "minecraft:border"}]}, count: 1, id: "minecraft:white_banner"},sell:{id:"minecraft:emerald",Count:2b},maxUses:5,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0}
+loot replace entity @s weapon.mainhand 1 loot dingdong:ancient_plant
+data modify entity @s Offers.Recipes prepend value {buy:{count: 1, id: "minecraft:torchflower"},sell:{id:"minecraft:emerald",count:10},maxUses:15,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0}
+data modify entity @s Offers.Recipes[0].buy set from entity @s equipment.mainhand
+
+item replace entity @s weapon.mainhand with white_banner
+item modify entity @s weapon.mainhand dingdong:ominous_banner
+data modify entity @s Offers.Recipes prepend value {buy:{count: 1, id: "minecraft:white_banner"},sell:{id:"minecraft:emerald",count:2},maxUses:5,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0}
+data modify entity @s Offers.Recipes[0].buy set from entity @s equipment.mainhand
+
+data modify entity @s Offers.Recipes append value {buy:{id:"minecraft:emerald",count:5},sell:{id:"minecraft:map",count:1},maxUses:1,uses:0,priceMultiplier:0.05f,specialPrice:0,demand:0}
+item replace entity @s weapon.mainhand with map
+item modify entity @s weapon.mainhand dingdong:outpost_explorer_map
+data modify entity @s Offers.Recipes[-1].sell set from entity @s equipment.mainhand
+
 tag @s add dingdong.modified

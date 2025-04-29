@@ -1,0 +1,25 @@
+[
+    {
+        "function": "minecraft:exploration_map",
+        "destination": "dingdong:pillager_outposts",
+        "decoration": "target_x",
+        "zoom": 2,
+        "search_radius": 50,
+        "skip_existing_chunks": false
+    },
+    {
+        "function": "minecraft:set_components",
+        "components": {
+            "minecraft:map_color": 7882240,
+            "minecraft:custom_data": {
+                "dingdong": {
+                    "id": "outpost_explorer_map"
+                }
+            },
+            "minecraft:item_name": {
+                "translate": "item.beqaa.outpost_explorer_map",
+                "fallback": "Outpost Explorer Map"
+            }
+        }
+    }
+]
