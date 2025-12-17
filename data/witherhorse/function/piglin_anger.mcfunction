@@ -1,1 +1,0 @@
-data modify entity @s Brain.memories."minecraft:angry_at".value set from entity @e[type=zombie_horse,sort=nearest,limit=1] UUID
