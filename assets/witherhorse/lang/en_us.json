@@ -1,7 +1,0 @@
-{
-    "entity.minecraft.zombie_horse": "Wither Skeleton Horse",
-    "item.minecraft.zombie_horse_spawn_egg": "Wither Skeleton Horse Spawn Egg",
-    "subtitles.entity.zombie_horse.ambient": "Wither Skeleton Horse cries",
-    "subtitles.entity.zombie_horse.death": "Wither Skeleton Horse dies",
-    "subtitles.entity.zombie_horse.hurt": "Wither Skeleton Horse hurts"
-}
