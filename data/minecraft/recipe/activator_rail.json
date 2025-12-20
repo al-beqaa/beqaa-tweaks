@@ -4,7 +4,7 @@
   "key": {
     "#": "minecraft:redstone_torch",
     "S": "minecraft:stick",
-    "X": "minecraft:iron_nugget"
+    "X": "minecraft:iron_ingot"
   },
   "pattern": [
     "XSX",
@@ -12,7 +12,7 @@
     "XSX"
   ],
   "result": {
-    "count": 6,
+    "count": 24,
     "id": "minecraft:activator_rail"
   }
 }

@@ -1,3 +1,5 @@
+execute if entity @e[type=wandering_trader] run return run title @s actionbar "The Trader is busy right now"
+
 summon marker ~ ~2 ~ {Tags:["dingdong.marker.temp"]}
 execute store result storage dingdong:root temp.y_pos int 1.0 run data get entity @e[type=marker,tag=dingdong.marker.temp,limit=1] Pos[1]
 kill @e[type=marker,tag=dingdong.marker.temp]

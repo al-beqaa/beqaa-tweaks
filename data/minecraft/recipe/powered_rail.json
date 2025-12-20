@@ -4,7 +4,7 @@
   "key": {
     "#": "minecraft:stick",
     "R": "minecraft:redstone",
-    "X": "minecraft:gold_nugget"
+    "X": "minecraft:gold_ingot"
   },
   "pattern": [
     "X X",
@@ -12,7 +12,7 @@
     "XRX"
   ],
   "result": {
-    "count": 6,
+    "count": 24,
     "id": "minecraft:powered_rail"
   }
 }

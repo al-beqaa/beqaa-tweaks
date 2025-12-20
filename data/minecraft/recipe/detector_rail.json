@@ -4,7 +4,7 @@
   "key": {
     "#": "#beqaa:stone_pressure_plates",
     "R": "minecraft:redstone",
-    "X": "minecraft:iron_nugget"
+    "X": "minecraft:iron_ingot"
   },
   "pattern": [
     "X X",
@@ -12,7 +12,7 @@
     "XRX"
   ],
   "result": {
-    "count": 6,
+    "count": 24,
     "id": "minecraft:detector_rail"
   }
 }

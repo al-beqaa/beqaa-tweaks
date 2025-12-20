@@ -3,7 +3,7 @@
   "category": "misc",
   "key": {
     "#": "minecraft:stick",
-    "X": "minecraft:iron_nugget"
+    "X": "minecraft:iron_ingot"
   },
   "pattern": [
     "X X",
@@ -11,7 +11,7 @@
     "X X"
   ],
   "result": {
-    "count": 16,
+    "count": 64,
     "id": "minecraft:rail"
   }
 }
