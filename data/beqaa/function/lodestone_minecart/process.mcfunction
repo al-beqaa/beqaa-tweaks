@@ -1,0 +1,2 @@
+execute if block ~ ~ ~ #beqaa:rails if entity @e[type=furnace_minecart,distance=..10] run data modify entity @s Motion set from entity @n[type=furnace_minecart,distance=..10] Motion
+execute as @e[type=#beqaa:minecart_no_furnace,distance=..10] at @s if block ~ ~ ~ #beqaa:rails run data modify entity @s Motion set from entity @n[type=command_block_minecart,tag=beqaa.lodestone_minecart,predicate=!beqaa:activated,distance=..10] Motion
