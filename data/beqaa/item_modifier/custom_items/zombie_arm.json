@@ -1,0 +1,53 @@
+[
+  {
+    "function": "minecraft:set_attributes",
+    "modifiers": [
+      {
+        "attribute": "minecraft:attack_damage",
+        "id": "beqaa:zombie_arm_damage",
+        "amount": 3,
+        "operation": "add_value",
+        "slot": "mainhand"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_components",
+    "components": {
+      "minecraft:enchantment_glint_override": false,
+      "minecraft:max_stack_size": 1,
+      "minecraft:weapon": {},
+      "minecraft:max_damage": 4,
+      "minecraft:damage": 0,
+      "minecraft:food": {
+        "nutrition": 0,
+        "saturation": 0,
+        "can_always_eat": true
+      },
+      "minecraft:tooltip_display": {
+        "hidden_components": [
+          "minecraft:enchantments"
+        ]
+      },
+      "minecraft:item_model": "beqaa:zombie_arm",
+      "minecraft:item_name": {
+        "translate": "item.beqaa.zombie_arm"
+      },
+      "minecraft:consumable": {}
+    }
+  },
+  {
+    "function": "minecraft:set_enchantments",
+    "enchantments": {
+      "beqaa:technical/zombie_arm": 1
+    }
+  },
+  {
+    "function": "minecraft:set_custom_data",
+    "tag": {
+      "beqaa": {
+        "id": "zombie_arm"
+      }
+    }
+  }
+]

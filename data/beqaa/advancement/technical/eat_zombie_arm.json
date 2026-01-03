@@ -1,0 +1,21 @@
+{
+  "criteria": {
+    "ate_zombie_arm": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "predicates": {
+            "minecraft:custom_data": {
+              "beqaa": {
+                "id": "zombie_arm"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "beqaa:zombie_arm/eat"
+  }
+}

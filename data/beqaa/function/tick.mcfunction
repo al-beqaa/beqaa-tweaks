@@ -3,3 +3,6 @@ execute as @a if items entity @s player.cursor #beqaa:golden_equipment[minecraft
 # execute as @e[type=minecart,tag=beqaa.lodestone_minecart] at @s run function beqaa:lodestone_minecart/init
 # execute as @e[type=command_block_minecart,tag=beqaa.lodestone_minecart] at @s unless predicate beqaa:activated run function beqaa:lodestone_minecart/process
 # execute as @e[type=item] if items entity @s contents minecart[minecraft:custom_name=" "] run item modify entity @s contents beqaa:lodestone_minecart
+
+execute as @a[tag=beqaa.zombie_player] run function beqaa:zombie_arm/zombie_player/tick
+effect give @a[tag=beqaa.zombie_player] hunger infinite

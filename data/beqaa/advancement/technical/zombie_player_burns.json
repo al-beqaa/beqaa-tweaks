@@ -1,0 +1,18 @@
+{
+  "criteria": {
+    "undead_burns": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:reference",
+            "name": "beqaa:undead_burns"
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "beqaa:zombie_arm/burn_zombie_player/advancement"
+  }
+}
